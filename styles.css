@@ -695,6 +695,11 @@ img {
   padding-bottom: 120px;
 }
 
+.contact-section.contact-only {
+  grid-template-columns: minmax(280px, 420px);
+  justify-content: start;
+}
+
 .contact-actions {
   display: grid;
   gap: 10px;
